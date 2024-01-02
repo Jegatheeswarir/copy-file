@@ -38,7 +38,9 @@ End of the program.
 ## PROGRAM:
 ```
 '''
-
+#Developed by: JEGATHEESWARI R
+#Register number: 23013697
+'''
 def copy(fname,newfile):
     with open(fname,'r')as fp:
         with open(newfile,'w')as fp1:
@@ -47,13 +49,13 @@ def copy(fname,newfile):
 fname=input("Enter an existing file:")
 newfile=input("Enter a name for new file:")
 copy(fname,newfile)
+'''
 
 
 ```
 
 ### OUTPUT:
-![output](<Screenshot 2024-01-02 144549.png>)
-
+![output](<Screenshot 2024-01-02 145157.png>)
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
